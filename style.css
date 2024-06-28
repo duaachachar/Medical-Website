@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anek+Bangla:wght@100..800&family=Geologica:wght@100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:slnt,wght@-10..0,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rozha+One&family=Yarndings+12+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anek+Bangla:wght@100..800&family=Geologica:wght@100..900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:slnt,wght@-10..0,100..900&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Pacifico&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rozha+One&family=Yarndings+12+Charted&display=swap');
+
+
+.font-family-1 {
+    font-family: "Playfair Display", serif;
+}
+
+.font-family-2 {
+    font-family: "Roboto", sans-serif;
+}
+
+.about-us {
+    font-family: "Playfair Display", serif;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.img-responsive {
+    width: 30%;
+    height: auto;
+}
+
+
+.icon-width {
+    width: 50%;
+    height: auto;
+}
+
+.our-departement {
+    background-image: url(./images/review_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 70vh;
+    top: -450px;
+}
+
+.our-departement:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c19ab;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+.background-img {
+    background-image: url(./images/review_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.background-img::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c19ab;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+
+.single-our-depertment {
+    margin-top: 0;
+    background-color: #fff;
+    margin-bottom: 40px;
+    position: relative;
+    border: 1px solid #f2f6f8;
+    padding: 60px 15px 32px;
+}
+
+.single-our-depertment:hover {
+    background-color: #0065e1;
+    color: #fff;
+}
+
+.single-depertment-icon {
+    height: auto;
+    width: 45px;
+    background-color: #f2f6f8;
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sub-footer {
+    position: relative;
+    z-index: 10;
+}
+
+.footer {
+    margin-top: -360px;
+
+}
+
+.input {
+    height: 48px;
+    border: none;
+    width: 100% !important;
+    font-weight: 400;
+    background: transparent;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #e1e1e1 !important;
+    color: #999999;
+}
+
+
+.button {
+    background-color: #0065e1;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    position: absolute;
+    margin-top: -45px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.text-color {
+    color: #888888;
+}
+
+.about {
+    margin: 100px 0px;
+}
+
+.single-feature-icon {
+    margin-bottom: 17px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #f0f4f6;
+    display: inline-block;
+    line-height: 50px;
+
+}
+
+.para-color {
+    color: #7f7f7f;
+}
+
+/* Doctor section */
+
+.doctor-section {
+    margin-top: -300px;
+}
+
+/* Reservation section */
+
+.reservation-bg-img {
+    background-image: url(./images/reservation_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.reservation-bg-img::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c19ab;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.form-control {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 4px;
+    height: 50px;
+    padding: 15px;
+    color: white;
+}
+
+.reservation-part .nice-select {
+    width: 100%;
+    line-height: 18px;
+}
+
+::placeholder {
+    color: #fff !important;
+}
+
+.reserve {
+    padding-top: 5%;
+}
+
+#Textarea {
+    height: 180px !important;
+    border: 1px solid #e4e6ea;
+}
+
+.form-control:focus {
+    background-color: transparent;
+}
+
+
+.angle-btn {
+    background-color: #0065e1;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    position: absolute;
+    margin-top: -50px;
+    right: 69px;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.make-btn:hover {
+    background-color: #3386fd;
+    color: #fff;
+}
+
+.input::placeholder {
+    color: black !important;
+}
+
+.dr-name:hover {
+    color: #0065e1;
+}
+
+.input-contact::placeholder{
+    font-family: "Roboto", sans-serif;
+    color: rgb(83, 82, 82) !important;
+    font-size: 12px;
+}
+
+.contact:focus{
+    outline: 1px solid #3386fd;
+}
